@@ -4,7 +4,7 @@ let Mongoose = require("mongoose");
 let Bodyparser =require("body-parser");
 let Cors = require("cors");
 const path=require('path');
-const {employeeModel}=require("")
+const {employeeModel}=require("./employee")
 let app=new express();
 
 app.use(express.static(path.join(__dirname+'/dist/FrontEnd')));
