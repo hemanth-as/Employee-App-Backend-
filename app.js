@@ -15,7 +15,7 @@ app.use(Bodyparser.urlencoded({extended:false}));
 
 app.use(Cors());
 
-Mongoose.connect("mongodb+srv://heman:ATLASsecretC0DE@cluster0.mksxcra.mongodb.net/EmployeeDB?retryWrites=true&w=majority",
+Mongoose.connect("mongodb+srv://heman:testerh@cluster0.mksxcra.mongodb.net/EmployeeDB?retryWrites=true&w=majority",
 {useNewUrlParser: true}
 );
 
